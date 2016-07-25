@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)http://getbootstrap.com/examples/carousel/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link rel="icon" href="https://assets.filestackapi.com/web/c3417dc/img/favicon.ico">
+  <title>Posterstack</title>
+  <!-- Bootstrap core CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="./css/carousel.css" rel="stylesheet">
+  <link href="./css/main.css" rel="stylesheet">
+</head>
+<!-- NAVBAR
+================================================== -->
+<body>
+  <div class="navbar-wrapper">
+    <div class="container">
+      <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://getbootstrap.com/examples/carousel/#">Posterstack</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="https://www.filestack.com/docs/image-transformations/collage" target="_blank">About</a></li>
+              <li><a href="https://blog.filestack.com/" target="_blank">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!-- Carousel
+  ================================================== -->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+      <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="item">
+        <img class="first-slide" src="https://process.filestackapi.com/collage=files:[uP0h60oTCiC0g3vXrksg,dHjJM1MlTCudMl27Y5tw,esrFo92DTxe7IZxisakl,m9hZIDMQU2AqfEjTxAfJ,bLGYDIyhSXiGwRhUfZCT],width:1450,height:700,fit:crop/N9o4vJe2Q9m4d37T8IQC" alt="First slide">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Posterstack</h1>
+            <p>Upload your favorite images and create a collage with Filestack API.</p>
+            <p><a class="btn btn-filestack btn-lg btn-filestack-start" href="#" role="button">Upload Pictures</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="item active">
+        <img class="second-slide" src="https://process.filestackapi.com/collage=files:[7Sk0GtgkTsuybSuPt0YY,9LxMN0HSgC4UGGREDq1W,I0sgXTA0QoiBoSqkfsOa,BY1XS8WQhCIcdMbSBO9A],width:1450,height:700,fit:crop/CtKkhR8tQqoIeoAJuLVg" alt="Second slide">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Posterstack</h1>
+            <p>Upload your favorite images and create a collage with Filestack API.</p>
+            <p><a class="btn btn-filestack btn-lg btn-filestack-start" href="#" role="button">Upload Pictures</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img class="third-slide" src="https://process.filestackapi.com/collage=files:[fMmXZvlAQW6YCYfReNva,iY1bMU5LT8iVSefKbzMu,HqfF9mnDTtOz5LdYdk7L,gDxxEuSYQieo1XtcJQJ1,J0cWZIDQgmdFGn1SfNQ5],width:1450,height:700,fit:crop/7JT3S9A8SAex8RKzswx0" alt="Third slide">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Posterstack</h1>
+            <p>Upload your favorite images and create a collage with Filestack API.</p>
+            <p><a class="btn btn-filestack btn-lg btn-filestack-start" href="#" role="button">Upload Pictures</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+          
+          <div class=".col-md-offset-4 media-list">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h2 class="panel-title text-center">
+                <span class="glyphicon glyphicon-sunglasses"></span> New Poster
+                </h2>
+              </div>
+              <div class="panel-body">
+                <form name="document-form" novalidate>
+                  <div class="form-group">
+                    <label for="title">Title</label>
+                    <input id="title" type="text" value="" class="form-control" placeholder="Enter the title..."/>
+                  </div>
+                  <div class="form-group">
+                    <label for="description">Description</label>
+                    <input id="description" type="text" value="" class="form-control" placeholder="Enter the description..."/>
+                  </div>
+                  <div class="form-group">
+                    <label for="size" id="size-label">Size</label>
+                    <input id="width" type="number" value="" class="form-control" placeholder="1450"/> X <input id="height" type="number" value="" class="form-control" placeholder="700"/>
+                  </div>
+                  <div class="form-group">
+                    <label for="picture">Files</label>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                        0%
+                      </div>
+                    </div>
+                    <div class="thumbnail off">
+                      <img src="" alt="" class="img-rounded"></img>
+                    </div>
+                    <div class="text-center dropup">
+                      <button type="button" class="btn btn-default filepicker">
+                      Upload <span class="caret"></span>
+                      </button>
+                      
+                    </div>
+                  </div>
+                  <button class="btn btn-filestack btn-block submit">Submit</button>
+                </form>
+              </div>
+            </div>
+            
+            
+          </div>
+        </div>
+  </div>
+  <footer class="text-center">
+    <p>© 2016 Samuele Zaza, <a href="https://www.filestack.com/">Filestack</a> Tech Evangelist.
+  </p>
+</footer>
+<script   src="./js/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://api.filepicker.io/v2/filepicker.js"></script>
+<script>
+  filepicker.setKey("AfcnFThTU4ebKMjxRMngSz");
+  var previewImage = function(url) {
+    $('.progress-bar')
+      .removeClass('progress-bar-striped active')
+      .addClass('progress-bar-success'); 
+    $('.thumbnail')
+      .removeClass('off')
+      .addClass('on')
+      .find('img')
+      .attr('src', url);
+  }
+  var createUrl = function(Blob) {
+    var url = 'https://process.filestackapi.com/collage=files:[';
+    var handlerList = [];
+    var firstImage;
+    Blob.forEach(function(image, index){
+      if(index > 0) { //The first image is put at the end of the url
+        handlerList.push(image.url.substring(image.url.lastIndexOf('/') + 1));
+      } else {
+        firstImage = image.url.substring(image.url.lastIndexOf('/') + 1);
+      }
+    });
+    url += handlerList.join() + ']';
+    //Set the final size
+    url += ',width:' + ($('#width').val() || 1450);
+    url += ',height:' + ($('#height').val() || 700);
+    url += ',fit:crop/' + firstImage; // fit:crop for a result close to the set size
+    return url;
+  }
+  var sendToServer = function(data) {
+        var image = {
+              title: $('#title').val(),
+              description : $('#description').val(),
+              url : $('.filepicker').data('doc-url')
+            };
+            $.ajax(
+              {
+                url: "/posterstack",
+                method: "POST",
+                data: image,
+                dataType: "json"
+              }
+            )
+            .done(function(data){
+              console.log(data);
+              alert("successfully added!");
+              location.reload();
+            })
+            .fail(function(e){ console.log("ERROR: " + e)});
+      }
+  $(document).ready(function(){
+    $('.submit').on('click', function(e){
+      e.preventDefault();
+      var url = $('.filepicker').data('doc-url');
+      if(typeof url != 'undefined') {
+        sendToServer();
+      }else {
+        alert("Do not forget to upload the image!");
+      }
+    });
+    $('.filepicker').on('click', function(){
+      var _this = $(this); 
+      filepicker.pickMultiple(
+       {
+          mimetype: 'image/*',
+          hide: true,
+          services: ['COMPUTER', 'BOX', 'IMGUR','DROPBOX', 'GOOGLE_DRIVE', 'FACEBOOK', 'INSTAGRAM', 'URL'],
+          maxFiles: 7
+        },
+        function(Blob){
+          console.log(JSON.stringify(Blob));
+          var url = createUrl(Blob); //Create the correct URL for the poster
+          _this.data("doc-url", url);
+          setTimeout(previewImage(url), 2000);
+        },
+        function(FPError){
+        console.log(FPError.toString());
+        },
+        function(FPProgress){
+          console.log(parseInt(FPProgress.progress));
+          progressPercentage = parseInt(FPProgress.progress) + '%';
+          $('.progress-bar').css('width', progressPercentage).text(progressPercentage);
+        });
+    });
+    $('.submit').on('click', function(){
+
+    });
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+node_modules/
+.bowerrc
+bower.json
+public/js/angular-bootstrap/
+public/js/angular-resource.min.js
+public/js/angular-route.min.js
+public/js/angular-scroll/
+public/js/angular/
+public/js/bootstrap/
+public/js/hanselsen/
+public/js/jquery/
